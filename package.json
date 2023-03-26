@@ -1,0 +1,27 @@
+{
+    "name": "harsh-magenta-dark-theme",
+    "displayName": "Harsh Magenta Dark Theme",
+    "description": "Dark theme with high contrast colors, mostly magenta with some green.",
+	"publisher": "xiej",
+    "version": "0.0.3",
+    "engines": {
+        "vscode": "^1.67.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Harsh Magenta Dark Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Harsh Magenta Dark Theme-color-theme.json"
+            }
+        ]
+    },
+	"icon": "icon.png",
+	"galleryBanner": {
+		"color": "#000000",
+		"theme": "dark"
+	}
+}
